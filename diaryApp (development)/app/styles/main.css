@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%
+}
+body {
+    background: url('../img/background/bg-main-2.jpg') no-repeat center center;
+    /*background-color: rgb(0,0,0);*/
+    background-size: 100% 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    height: 100%;
+    width: 100%
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+}
+
+.hero-unit h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.container{
+    overflow: hidden;
+    overflow-y: auto !important;
+    height: 100%;
+}
+.top-nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: url('../img/background/menu-bg.png') no-repeat center center;
+    background-size: 100%;
+    z-index: 1000;
+}
+.bottom-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: url('../img/background/menu-bg.png') no-repeat center center;
+    background-size: 100%;
+}
+.menu-list-icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../img/icons/List-icon.png') no-repeat center center;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.menu-list{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 150px;
+    color: #fff;
+    font-size: 10pt;
+    font-family: verdana;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.showMenu{
+    display: block;
+}
+
+.menu-list li{
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px outset rgba(0,0,0,0.6);
+    background: url('../img/background/bg-list.png') no-repeat center center;
+    background-color: rgb(0,0,0);
+    border-radius: 2px;
+    cursor: pointer;
+    border-bottom: none;
+}
+.template-view{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    bottom: 50px !important;
+    overflow: hidden;
+    overflow-y: auto;
+}
